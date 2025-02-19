@@ -1,0 +1,282 @@
+{
+  "About": {
+    "Ab": "About Me",
+    "As": "✨ Turning ideas into reality 🚀",
+    "Ht": "Hashimi",
+    "Hti": "Hello there! I'm",
+    "aler": ">",
+    "bioText": "Hello, I'm Hashimi ! A passionate web developer skilled in Next.js, Tailwind CSS, and Framer Motion.I create modern, dynamic user interfaces and powerful back-end systems using PHP and APIs.I love turning ideas into interactive, seamless digital experiences.",
+    "cards": [
+      {
+        "subtitle": "Years of Experience",
+        "title": "Projects",
+        "value": "27"
+      },
+      {
+        "subtitle": "Worldwide",
+        "title": "Clients",
+        "value": "10+"
+      },
+      {
+        "subtitle": "Achievements",
+        "title": "Awards",
+        "value": "4"
+      }
+    ],
+    "img": "https://res.cloudinary.com/drgpgdtmo/image/upload/v1737146779/Hashimi.jpg"
+  },
+  "Home": {
+    "dv": "Developer",
+    "dw": "Developing with",
+    "fl": "Full Stack",
+    "hometext": "Crafting innovative web experiences that blend elegant designs, high performance , and smart solutions to meet your needs with excellence.",
+    "lottie": "https://lottie.host/4eb77b79-be6c-4646-b598-0dce4270b6e0/FQHFyVqlTt.lottie",
+    "phrases": [
+      "React JS",
+      "Next JS",
+      "Tailwind CSS",
+      "PHP",
+      "SQL",
+      "API",
+      "Node JS",
+      "Firebase",
+      "Swiper js"
+    ]
+  },
+  "Portfolio": {
+    "Workhx": [
+      {
+        "des": "Trainee from 05/6/24 to 03/8/24",
+        "img": "https://res.cloudinary.com/drgpgdtmo/image/upload/v1737224586/hvulfywoxkhhrwk22huq.png",
+        "titel": "Ibtikar technology"
+      }
+    ],
+    "Wx": "Work Hx",
+    
+      "cards": [
+        {
+          "id": 1,
+          "desc": "A modern Next.js site with Tailwind CSS and Framer Motion, showcasing indoor plants with sleek design and smooth animations",
+          "img": "https://res.cloudinary.com/drgpgdtmo/image/upload/v1737219000/pszmf7jyfdxujiz8azra.png",
+          "link": "https://example.com/project1",
+          "tech": "Next.js, Tailwind CSS, Framer Motion",
+          "title": "Indoreplant",
+          "url": ""
+        },
+        {
+          "id": 2,
+          "desc": "A React page with Tailwind CSS and Framer Motion, simulating Yami Sukehiro's Mana Zone dimensional slash with dynamic animations and smooth effects",
+          "img": "https://res.cloudinary.com/drgpgdtmo/image/upload/v1737219569/qjd7lklrdlrtcoppriyv.png",
+          "link": "https://example.com/project2",
+          "tech": "React.js, Tailwind CSS, Framer Motion",
+          "title": "black clover",
+          "url": "yami.vercel.app"
+        },
+        {
+          "id": 3,
+          "desc": "An AI chat built with Gemini API, offering intelligent, dynamic, and natural conversations with smooth interaction and responsive design",
+          "img": "https://res.cloudinary.com/drgpgdtmo/image/upload/v1737219568/mmjrzfw3jhx1wtono0tl.png",
+          "link": "https://example.com/project3",
+          "tech": "React.js, Tailwind CSS, Framer Motion",
+          "title": "Ai chatbot",
+          "url": "chat.vercel.app"
+        },
+        {
+          "id": 4,
+          "desc": "A PHP and HTML-based survey site, delivering seamless user interaction and reliable performance. It achieved the highest L2 rating for quality and efficiency",
+          "img": "https://res.cloudinary.com/drgpgdtmo/image/upload/v1737219580/zswkqhx48r5uwnijz2em.png",
+          "link": "https://example.com/project4",
+          "tech": "PHP, HTML, CSS, JavaScript",
+          "title": "Survey site",
+          "url": ""
+        },
+        {
+          "id": 5,
+          "desc": "A Next.js-powered online store with fast performance, modern design, and smooth navigation, offering a seamless shopping experience.",
+          "img": "https://res.cloudinary.com/drgpgdtmo/image/upload/v1737221294/y1ky7fnf89hv7vronsxa.png",
+          "link": "https://example.com/project5",
+          "tech": "Next.js, Tailwind CSS, Framer Motion",
+          "title": "E-commerce store",
+          "url": ""
+        },
+        {
+          "id": 6,
+          "desc": "A Next.js platform, programmed with OpenAI API, for fast and intuitive AI image creation",
+          "img": "https://res.cloudinary.com/drgpgdtmo/image/upload/v1737221291/t6cjpttmgp9vrd3erbdr.png",
+          "link": "https://example.com/project6",
+          "tech": "React.js, Tailwind CSS, Framer Motion",
+          "title": "Image generation",
+          "url": ""
+        }
+      ]
+    
+,    
+    "cr": "Certificates",
+    "desc": "`🌟 Passionate web developer crafting innovative digital experiences ✨ that blend creativity 🎨 and technology 💻.\nI believe details make the difference 🧩.`",
+    "icons": [
+      {
+        "icon": "<FaPhp />",
+        "name": "PHP",
+        "ttype": "Basic"
+      },
+      {
+        "icon": "<SiMysql />",
+        "name": "SQL",
+        "ttype": "Basic"
+      },
+      {
+        "icon": "<SiJavascript />",
+        "name": "JavaScript",
+        "ttype": "Basic"
+      },
+      {
+        "icon": "<SiReact />",
+        "name": "ReactJS",
+        "ttype": "Basic"
+      },
+      {
+        "icon": "<SiNextdotjs />",
+        "name": "Next.js",
+        "ttype": "Basic"
+      },
+      {
+        "icon": "<SiPython />",
+        "name": "Python",
+        "ttype": "Secondary"
+      },
+      {
+        "icon": "<SiTailwindcss />",
+        "name": "Tailwind CSS",
+        "ttype": "Basic"
+      },
+      {
+        "icon": "<AiOutlineJava />",
+        "name": "Java",
+        "ttype": "Secondary"
+      },
+      {
+        "icon": "<SiCss3 />",
+        "name": "CSS",
+        "ttype": "Secondary"
+      },
+      {
+        "icon": "<SiHtml5 />",
+        "name": "HTML",
+        "ttype": "Secondary"
+      },
+      {
+        "icon": "<SiFramer />",
+        "name": "Framer",
+        "ttype": "Basic"
+      }
+    ],
+    "lg": "Languages",
+    "pr": "Projects",
+    "serti": [
+      {
+        "desc": "Certificate 1 description",
+        "img": "https://picsum.photos/200/300",
+        "link": "https://example.com/certificate1",
+        "title": "Certificate 1"
+      }
+    ],
+    "titel": "Portfolio"
+  },
+  "Servis": {
+    "cont": [
+      {
+        "lottie": "https://lottie.host/634765b6-df6e-4beb-87ab-0ce762485184/ZDW4vRazqM.lottie",
+        "text": "Turning Ideas into Digital Reality"
+      },
+      {
+        "lottie": "https://lottie.host/2a6ba61b-866e-419a-8dee-823c0f50df27/ShpcLcKDur.lottie",
+        "text": "Modern Web Experiences with Exceptional Details"
+      },
+      {
+        "lottie": "https://lottie.host/0459f48e-0c73-41b4-ac64-17d8b1ea0b89/ddb898hp8W.lottie",
+        "text": "Where Creativity Meets Technology"
+      },
+      {
+        "lottie": "https://lottie.host/91195518-fa9f-455e-acb6-154ba17e943b/vNHLoCNI9K.lottie",
+        "text": "I Build Interfaces that Breathe, and Experiences that Inspire"
+      },
+      {
+        "lottie": "https://lottie.host/45c383ed-a1a1-473a-8cec-d96b4c387743/On0Olx1Cuv.lottie",
+        "text": "Digital Projects Designed with Precision... Just for You"
+      },
+      {
+        "lottie": "https://lottie.host/29870e72-8300-4773-b819-5d3d5f4af3b5/n19IXVJp1V.lottie",
+        "text": "Motion, Design, and Innovation... On One Page"
+      },
+      {
+        "lottie": "https://lottie.host/d4aaca83-310f-49af-868e-8d5a2d5742a0/5od6dBz0r8.lottie",
+        "text": "The Interface of the Future Starts Here"
+      }
+    ]
+  },
+  
+  "nave": {
+    "navItems": [
+      {
+        "href": "/",
+        "id": "home",
+        "name": "Home"
+      },
+      {
+        "href": "#about",
+        "id": "about",
+        "name": "About"
+      },
+      {
+        "href": "#portfolio",
+        "id": "portfolio",
+        "name": "Portfolio"
+      },
+      {
+        "href": "/contact",
+        "id": "contact",
+        "name": "Contact"
+      }
+    ]
+  },
+  "contact": {
+    "1634069312000": {
+      "name": "محمد أحمد",
+      "email": "mohamed@example.com",
+      "message": "مرحبا، أود الاستفسار عن خدماتكم",
+      "userPhoto": "https://example.com/mohamed.jpg",
+      "timestamp": 1634069312000
+    }
+  },
+  "reviews": {
+    "1634069400000": {
+      "rating": 5,
+      "comment": "خدمة ممتازة!",
+      "position": "مدير",
+      "company": "شركة ABC",
+      "userName": "أحمد علي",
+      "userPhoto": "https://example.com/ahmed.jpg",
+      "timestamp": 1634069400000
+    },
+    "1634069500000": {
+      "rating": 4,
+      "comment": "جيد لكن يحتاج بعض التحسين",
+      "position": "مهندس",
+      "company": "شركة XYZ",
+      "userName": "سارة محمد",
+      "userPhoto": "https://example.com/sara.jpg",
+      "timestamp": 1634069500000
+    }
+  },
+  "rating":[
+      {"المعنى": "دفعة الامل ", "العدد": 1},
+      {"المعنى": "دفعة الامل ", "العدد": 1},
+      {"المعنى": "دفعة الامل ", "العدد": 1}
+    ],
+    "votes":[
+      {"id":"c-21454","name":"med","fliere":"DAII","vote":"دفعة الأمل"}
+    
+  ]
+  
+
+}

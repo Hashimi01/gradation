@@ -3,19 +3,96 @@
 @tailwind utilities;
 
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
+  --background: #0a0a0a;
+  --foreground: #ededed;
+  --primary: rgb(139, 92, 246);
+  --primary-dark: rgb(109, 40, 217);
+  --accent: rgb(167, 139, 250);
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+html {
+  scroll-behavior: smooth;
+  overflow-x: hidden; /* منع التمرير الأفقي */
 }
 
 body {
   color: var(--foreground);
-  background: var(--background);
+  background: linear-gradient(
+    135deg,
+    rgb(29, 5, 55) 0%,
+    rgb(43, 6, 77) 50%,
+    rgb(29, 5, 55) 100%
+  );
   font-family: Arial, Helvetica, sans-serif;
+  padding-left: 0; /* إزالة padding من body */
+  padding-right: 0;
+  min-height: 100vh;
+  position: relative;
+  overflow-x: hidden;
+  width: 100%;
+}
+
+/* باقي الأكواد كما هي */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background: rgb(29, 5, 55);
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--primary-dark);
+  border-radius: 5px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: var(--primary);
+}
+
+::selection {
+  background: var(--primary);
+  color: var(--background);
+}
+
+.gradient-text {
+  background: linear-gradient(45deg, var(--primary), var(--accent));
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
+
+.glass {
+  background: rgba(255, 255, 255, 0.05);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.fade-in {
+  animation: fadeIn 0.6s ease-out forwards;
+}
+
+a, button {
+  transition: all 0.3s ease;
+}
+
+a:hover, button:hover {
+  opacity: 0.9;
+  transform: translateY(-1px);
+}
+
+a:active, button:active {
+  transform: translateY(1px);
 }
